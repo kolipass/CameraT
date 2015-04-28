@@ -38,6 +38,6 @@ and:
 
 ```gradle
 dependencies {
-    compile 'com.github.jitpack:android-example:1.0.2'
+    compile 'com.github.kolipass:camerat:1.0.1'
 }
 ```
