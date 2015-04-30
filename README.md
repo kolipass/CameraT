@@ -27,8 +27,9 @@
    [HoleSurfaceView](https://gist.github.com/kolipass/b6b6ba44de853adfaec3)
     
 ## Installing
-
-Add it to your build.gradle with:
+ * Normal usage
+ 
+Add it to your root build.gradle with:
 ```gradle
 repositories {
     maven { url "https://jitpack.io" }
@@ -41,3 +42,21 @@ dependencies {
     compile 'com.github.kolipass:camerat:1.0.1'
 }
 ```
+
+ * Local usage
+ 
+If you want to use you own local fork:
+You need run ```    gradle install ```and check the local Maven repo folder ```.m2/repository/CameraT/library```
+
+Add it to your root build.gradle with:
+```gradle
+repositories {
+        mavenLocal()
+}
+```
+and:
+
+```gradle
+dependencies {
+    compile 'CameraT:library:unspecified'
+} 
