@@ -60,3 +60,5 @@ and:
 dependencies {
     compile 'CameraT:library:unspecified'
 } 
+```
+[![Release](https://img.shields.io/github/tag/kolipass/CameraT.svg?label=maven)](https://jitpack.io/#kolipass/CameraT)
